@@ -1,12 +1,24 @@
 //Business Logic
 
-$(document).ready(function() {
-  $("#mrRoboger").submit(function(event) {
-    event.preventDefault();
-    let numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-    const beep = ["Beep"];
-    
-    numbers.forEach(function(value, index) {
-    alert(value);
-  }:
-}):
+numbersRoboger = function translator(number) {
+  let numbersRoboger = [0-15]
+
+  for (let index = 0; index <= number; index++) {
+    if (index.toString().includes("3")) {
+      translation.push("Won't you be my neighbor?")
+    } else if (index.toString().includes("2")) {
+      numbersRoboger.push("Boop!")
+    } else if (index.toString().includes("1")) {
+      translation.push("Beep!");
+    } else {
+      numbersRoboger.push(index)
+    }
+  }
+  return numbersRoboger
+}
+
+
+
+
+// User Interface Logic
+
