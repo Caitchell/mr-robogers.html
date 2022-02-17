@@ -1,0 +1,33 @@
+h1 {
+  margin: 10px;
+  border: solid black 12px;
+  text-align: center;
+  padding-bottom: 10px
+}
+
+.bg-info {
+  margin: 10px;
+  border: solid black 12px;
+  text-align: center;
+  padding-bottom: 20px
+}
+
+.bg-success {
+  margin: 10px;
+  border: solid black 5px;
+  text-align: center;
+  padding: 5px
+}
+
+.bg-danger {
+  margin: 10px;
+  border: solid black 5px;
+  text-align: center;
+  padding: 5px
+}
+
+body {
+  margin: 10px;
+  background-color: rgb(115, 64, 138);
+  border: solid black 10px;
+}
